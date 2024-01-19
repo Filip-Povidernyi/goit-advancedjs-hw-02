@@ -27,7 +27,7 @@ function onBtnStartChangeColor() {
 function onBtnStopChangeColor() {
     elems.btnStart.disabled = false;
     elems.btnStop.disabled = true;
-
+    elems.btnStart.style.backgroundColor = getRandomHexColor();
 
     clearInterval(bgColorChange);
     clearInterval(btnColorChange);
