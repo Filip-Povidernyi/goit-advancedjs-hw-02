@@ -54,5 +54,6 @@ function onPromiseCreate(e) {
           position: 'topRight',
         });
       });
+    e.currentTarget.reset();
   }
 }
